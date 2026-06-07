@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chrono Men — Мужские часы</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#" class="logo">Chrono Men</a>
+
+      <nav class="nav">
+        <a href="#catalog" class="nav__link">Каталог</a>
+        <a href="#about" class="nav__link">О нас</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+
+      <div class="header__actions">
+        <div class="header__time">
+          <span class="header__time-label">Москва</span>
+          <span class="header__time-value" id="msk-time">--:--:--</span>
+        </div>
+
+        <button type="button" class="cart-btn" id="cart-toggle" aria-label="Открыть корзину">
+          <svg class="cart-btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M6 6h15l-1.5 9H7.5L6 6z"/>
+            <path d="M6 6L5 3H2"/>
+            <circle cx="9" cy="20" r="1.5"/>
+            <circle cx="18" cy="20" r="1.5"/>
+          </svg>
+          <span class="cart-btn__badge" id="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Премиальные мужские часы</p>
+        <h1 class="hero__title">Время — ваш главный аксессуар</h1>
+        <p class="hero__text">
+          Классика, спорт и минимализм в одном каталоге. Листайте вниз — цены указаны у каждой модели.
+        </p>
+        <a href="#catalog" class="btn btn--primary">Смотреть каталог</a>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalog">
+      <div class="section-header">
+        <h2 class="section-title">Каталог</h2>
+        <p class="section-subtitle">Подборка мужских часов с актуальными ценами</p>
+      </div>
+
+      <div class="products" id="products"></div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about__card">
+        <h2 class="section-title">О Chrono Men</h2>
+        <p>
+          Мы отбираем часы, которые подчёркивают характер: надёжный механизм, строгий дизайн
+          и цена без сюрпризов. Каждая модель в каталоге — с прозрачной стоимостью.
+        </p>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="contacts__card">
+        <h2 class="section-title">Контакты</h2>
+        <p>Нижневартовск · ежедневно 10:00-22:00 (МСК)</p>
+        <a href="mailto:vindontfrom@gmail.com" class="contacts__email">vindontfrom@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Chrono Men. Все цены указаны в рублях.</p>
+  </footer>
+
+  <!-- Модальное окно «Подробнее» -->
+  <div class="modal" id="details-modal" aria-hidden="true">
+    <div class="modal__overlay" data-close-modal></div>
+    <div class="modal__dialog" role="dialog" aria-labelledby="modal-title">
+      <button type="button" class="modal__close" data-close-modal aria-label="Закрыть">&times;</button>
+      <div class="modal__content" id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Корзина -->
+  <div class="cart-panel" id="cart-panel" aria-hidden="true">
+    <div class="cart-panel__overlay" id="cart-overlay"></div>
+    <aside class="cart-panel__drawer" role="dialog" aria-labelledby="cart-title">
+      <div class="cart-panel__header">
+        <h2 class="cart-panel__title" id="cart-title">Корзина</h2>
+        <button type="button" class="cart-panel__close" id="cart-close" aria-label="Закрыть корзину">&times;</button>
+      </div>
+      <div class="cart-panel__items" id="cart-items"></div>
+      <div class="cart-panel__footer">
+        <div class="cart-panel__total">
+          <span>Итого:</span>
+          <strong id="cart-total">0 ₽</strong>
+        </div>
+        <button type="button" class="btn btn--primary cart-panel__checkout" id="cart-checkout">
+          Оформить заказ
+        </button>
+      </div>
+    </aside>
+  </div>
+
+  <div class="toast" id="toast" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
