@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <rect width="600" height="450" fill="#141820"/>
+  <rect x="40" y="40" width="520" height="370" rx="20" fill="#1c2230"/>
+  <circle cx="300" cy="225" r="110" fill="#252d3d" stroke="#c9a962" stroke-width="3"/>
+  <circle cx="300" cy="225" r="95" fill="#0d1018"/>
+  <circle cx="300" cy="225" r="80" fill="#161b26" stroke="#3a4458" stroke-width="2"/>
+  <line x1="300" y1="225" x2="300" y2="165" stroke="#c9a962" stroke-width="4" stroke-linecap="round"/>
+  <line x1="300" y1="225" x2="340" y2="225" stroke="#e8e8e8" stroke-width="3" stroke-linecap="round"/>
+  <rect x="268" y="95" width="64" height="50" rx="8" fill="#2a3344" stroke="#c9a962" stroke-width="2"/>
+  <rect x="268" y="305" width="64" height="50" rx="8" fill="#2a3344" stroke="#c9a962" stroke-width="2"/>
+  <text x="300" y="400" text-anchor="middle" fill="#c9a962" font-family="Georgia,serif" font-size="22" font-weight="bold">ROLEX</text>
+</svg>

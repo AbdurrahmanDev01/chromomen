@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <rect width="600" height="450" fill="#10141a"/>
+  <rect x="40" y="40" width="520" height="370" rx="20" fill="#181e28"/>
+  <circle cx="300" cy="225" r="112" fill="#222a38" stroke="#d4af37" stroke-width="3"/>
+  <circle cx="300" cy="225" r="96" fill="#080a0e"/>
+  <circle cx="300" cy="225" r="78" fill="#131820" stroke="#3d4a5c" stroke-width="2"/>
+  <line x1="300" y1="225" x2="300" y2="162" stroke="#d4af37" stroke-width="4" stroke-linecap="round"/>
+  <line x1="300" y1="225" x2="348" y2="225" stroke="#f0f0f0" stroke-width="3" stroke-linecap="round"/>
+  <rect x="265" y="92" width="70" height="52" rx="10" fill="#2a3242" stroke="#d4af37" stroke-width="2"/>
+  <rect x="265" y="306" width="70" height="52" rx="10" fill="#2a3242" stroke="#d4af37" stroke-width="2"/>
+  <text x="300" y="400" text-anchor="middle" fill="#d4af37" font-family="Georgia,serif" font-size="20" font-weight="bold">TAG HEUER</text>
+</svg>

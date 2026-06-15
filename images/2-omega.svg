@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <rect width="600" height="450" fill="#12151c"/>
+  <rect x="40" y="40" width="520" height="370" rx="20" fill="#1a1f2a"/>
+  <circle cx="300" cy="225" r="108" fill="#242a38" stroke="#b0b8c8" stroke-width="3"/>
+  <circle cx="300" cy="225" r="92" fill="#0a0c10"/>
+  <circle cx="300" cy="225" r="76" fill="#11151e" stroke="#4a5568" stroke-width="2"/>
+  <line x1="300" y1="225" x2="300" y2="168" stroke="#e8e8e8" stroke-width="3" stroke-linecap="round"/>
+  <line x1="300" y1="225" x2="355" y2="240" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+  <rect x="270" y="98" width="60" height="46" rx="6" fill="#2d3548"/>
+  <rect x="270" y="306" width="60" height="46" rx="6" fill="#2d3548"/>
+  <text x="300" y="400" text-anchor="middle" fill="#b0b8c8" font-family="Georgia,serif" font-size="22" font-weight="bold">OMEGA</text>
+</svg>

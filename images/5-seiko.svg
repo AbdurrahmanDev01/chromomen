@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <rect width="600" height="450" fill="#0f1218"/>
+  <rect x="40" y="40" width="520" height="370" rx="20" fill="#171c26"/>
+  <circle cx="300" cy="225" r="110" fill="#1e2838" stroke="#4a9eff" stroke-width="3"/>
+  <circle cx="300" cy="225" r="94" fill="#060810"/>
+  <circle cx="300" cy="225" r="78" fill="#101620" stroke="#2a4060" stroke-width="2"/>
+  <line x1="300" y1="225" x2="300" y2="164" stroke="#4a9eff" stroke-width="4" stroke-linecap="round"/>
+  <line x1="300" y1="225" x2="350" y2="228" stroke="#e0e8f0" stroke-width="3" stroke-linecap="round"/>
+  <rect x="266" y="94" width="68" height="50" rx="8" fill="#243040" stroke="#4a9eff" stroke-width="2"/>
+  <rect x="266" y="306" width="68" height="50" rx="8" fill="#243040" stroke="#4a9eff" stroke-width="2"/>
+  <text x="300" y="400" text-anchor="middle" fill="#4a9eff" font-family="Georgia,serif" font-size="22" font-weight="bold">SEIKO</text>
+</svg>
